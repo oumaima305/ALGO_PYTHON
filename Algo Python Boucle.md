@@ -138,7 +138,7 @@ for iterator in string:
 **Example:**
 #dictionnaire ensemble (key:valeur)
 ```py
-language = 'Python'
+language = 'ARA'
 for letter in language:
     print(letter)
 
@@ -300,18 +300,18 @@ for x in y:
 ```
 
 **Example:**
-
+#dictionnaire ensemble (key:valeur)
 ```py
 person = {
-    'first_name': 'Asabeneh',
-    'last_name': 'Yetayeh',
-    'age': 250,
-    'country': 'Finland',
-    'is_marred': True,
-    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'first_name': 'OUAMIMA',
+    'last_name': 'hamdoune',
+    'age': 21,
+    'country': 'Maroc',
+    'is_marred': False,
+    'skills': ['footall', 'React', 'Node', 'MongoDB', 'Python'],
     'address': {
-        'street': 'Space street',
-        'zipcode': '02210'
+        'street': 'Smaala street',
+        'zipcode': '058'
     }
 }
 for key in person:
@@ -350,6 +350,22 @@ In python when statement is required (after semicolon), but we don't like to exe
 ```py
 for number in range(6):
     pass
+```
+```
+EXEMPLE
+n=int(input("entrer un nombre : "))
+for i in range(n):
+  fiche ={
+      'nom':"",
+      'app':""  ,
+      'grade':[20,14,12,20,20,6]
+  }
+  #calcul de la moyenne
+  s=0.
+  for x in fiche['grade']:
+      s=s+x
+  moyenne=s/6
+  print(moyenne)
 ```
 
 🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
