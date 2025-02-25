@@ -136,7 +136,7 @@ for iterator in string:
 ```
 
 **Example:**
-
+#dictionnaire ensemble (key:valeur)
 ```py
 language = 'Python'
 for letter in language:
