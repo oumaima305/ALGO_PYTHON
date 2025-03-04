@@ -379,6 +379,7 @@ for i in range(n):
 3. Write a loop that makes seven calls to print(), so we get on the output the following triangle:
 
    ```py
+   
      #
      ##
      ###
